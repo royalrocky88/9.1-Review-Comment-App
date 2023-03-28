@@ -1,0 +1,150 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.list-card {
+  list-style-type: none;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.name-logo {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 576px) {
+  .name-logo {
+    font-weight: bold;
+  }
+}
+
+.name-time-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .name-time-card {
+    height: 30px;
+  }
+}
+
+.name-card {
+  color: #334155;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .name-card {
+    font-size: 16px;
+  }
+}
+
+.time-card {
+  color: #94a3b8;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 576px) {
+  .time-card {
+    font-size: 13px;
+  }
+}
+
+.comment-card {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 576px) {
+  .comment-card {
+    font-size: 16px;
+  }
+}
+
+.btn-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.like-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.like-btn {
+  height: 25px;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7e858e;
+  border: none;
+  outline: none;
+}
+
+.liked-btn {
+  height: 25px;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0ea5e9;
+  border: none;
+  outline: none;
+}
+
+.delete-btn {
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+
+.delete-img {
+  height: 40px;
+  width: 40px;
+}
